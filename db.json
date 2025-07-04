@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "name": "Laptop Lenovo IdeaPad 3",
+      "price": 2499,
+      "stock": 10,
+      "category": "Tecnología",
+      "description": "Laptop de 15.6 pulgadas con procesador AMD Ryzen 5.",
+      "status": false,
+      "image_url": "https://example.com/img/Laptop Lenovo IdeaPad 3",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone Samsung Galaxy A34",
+      "description": "Celular de gama media con cámara triple y pantalla AMOLED.",
+      "price": 1499,
+      "category": "Celulares",
+      "stock": 5,
+      "image_url": "https://example.com/img/samsung-a34.jpg",
+      "status": true
+    },
+    {
+      "name": "Audífonos Bluetooth JBL Tune 510BT",
+      "price": 11,
+      "stock": 20,
+      "category": "Audio",
+      "description": "Audífonos inalámbricos con sonido JBL Pure Bass.",
+      "status": true,
+      "image_url": "https://example.com/img/Audífonos Bluetooth JBL Tune 510BT",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Monitor LG 24'' Full HD",
+      "description": "Monitor LED de 24 pulgadas con resolución 1080p.",
+      "price": 579,
+      "category": "Tecnología",
+      "stock": 7,
+      "image_url": "https://example.com/img/monitor-lg24.jpg",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Teclado Mecánico Redragon K552",
+      "description": "Teclado mecánico RGB con switches rojos.",
+      "price": 189,
+      "category": "Accesorios",
+      "stock": 15,
+      "image_url": "https://example.com/img/redragon-k552.jpg",
+      "status": true
+    },
+    {
+      "id": "6",
+      "name": "Mouse Logitech G203 Lightsync",
+      "description": "Mouse gamer RGB con sensor de 8000 DPI.",
+      "price": 109,
+      "category": "Accesorios",
+      "stock": 12,
+      "image_url": "https://example.com/img/logitech-g203.jpg",
+      "status": true
+    },
+    {
+      "name": "Silla Gamer Cougar Explore S",
+      "price": 699,
+      "stock": 3,
+      "category": "Muebles",
+      "description": "Silla ergonómica para gaming con soporte lumbar.",
+      "status": false,
+      "image_url": "https://example.com/img/Silla Gamer Cougar Explore S",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "name": "Tablet Xiaomi Pad 6",
+      "description": "Tablet con pantalla de 11 pulgadas y 128 GB de almacenamiento.",
+      "price": 1599,
+      "category": "Tecnología",
+      "stock": 4,
+      "image_url": "https://example.com/img/xiaomi-pad6.jpg",
+      "status": true
+    },
+    {
+      "id": "b569",
+      "name": "agua",
+      "price": 3000,
+      "stock": 30,
+      "category": "pan",
+      "status": true
+    },
+    {
+      "id": "a043",
+      "name": "Marco",
+      "price": 123123,
+      "stock": 1231,
+      "category": "123123",
+      "status": true,
+      "image_url": "https://example.com/img/Marco"
+    },
+    {
+      "name": "Marco",
+      "price": 123123,
+      "stock": 22,
+      "category": "asdasd",
+      "description": "123123",
+      "status": true,
+      "image_url": "https://example.com/img/Marco",
+      "id": "2578"
+    },
+    {
+      "id": "c012",
+      "name": "gases",
+      "price": 300,
+      "stock": 21,
+      "category": "bebida",
+      "description": "aosdkqowi",
+      "status": true,
+      "image_url": "https://example.com/img/gases"
+    },
+    {
+      "id": "0ee6",
+      "name": "pan",
+      "price": 300,
+      "stock": 30,
+      "category": "panes",
+      "description": "es ui pans",
+      "status": true,
+      "image_url": "https://example.com/img/pan"
+    },
+    {
+      "name": "frasco",
+      "price": 300,
+      "stock": 30,
+      "category": "pan",
+      "description": "asdoajsdo",
+      "status": false,
+      "image_url": "https://example.com/img/frasco",
+      "id": "5f5b"
+    }
+  ]
+}

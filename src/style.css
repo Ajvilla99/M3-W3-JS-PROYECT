@@ -1,0 +1,211 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-primary: #8280fd;
+  --bg-primary-hover: #7370ff;
+}
+
+body {
+  background-color: #eee;
+}
+
+#app {
+  display: flex;
+}
+
+.btn-add-product {
+  background-color: var(--bg-primary);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-add-product:hover {
+  background-color: var(--bg-primary-hover);
+
+}
+
+#box_content {
+  flex: 1 0;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_table {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+.tr_head {
+  background-color: var(--bg-primary);
+}
+
+.tr_head th {
+  text-transform: uppercase;
+  color: white;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.table_actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#tb tr td {
+  padding: 6px 10px;
+}
+
+.td_dark {
+  background-color: #dedddddd!important;
+}
+
+.td_white {
+  background-color: #f7f7f7!important;
+}
+
+.td_status {
+
+}
+
+.td_status_true {
+  background-color: rgb(102, 196, 102);
+  color: rgb(0, 99, 0);
+  padding: 2.5px;
+  width: fit-content;
+}
+.td_status_false {
+  background-color: rgb(255, 135, 135);
+  color: rgb(180, 0, 0);
+  padding: 2.5px;
+  width: fit-content;
+}
+
+.box_btn_action {
+  display: flex;
+  gap: 0;
+  margin: 0;
+}
+
+.btn_action {
+  border: none;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn_action:hover {
+  background-color: #4b4b4b;
+}
+
+/* Modal Design ______________ */
+
+.modal_off {
+  display: none!important;
+}
+
+.view_off_form {
+  display: none!important;
+}
+
+.modal_background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #33333377;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_form_box {
+  background-color: #eee;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.modal_form_box .modal_form  {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modal_form_box .modal_form .box_input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.modal_form div h2 {
+  color: var(--bg-primary);
+  text-align: center;
+}
+
+.form_box {
+  display: flex;
+  flex-direction: row!important;
+  gap: 100px;
+}
+
+.box_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box_actions {
+  display: flex!important;
+  flex-direction: row!important;
+  flex-wrap: nowrap!important;
+  margin-top: 10px;
+  gap: 10px;
+
+}
+
+.box_actions > button {
+  border: none;
+  padding: 12px 10px;
+  flex: 1 0 120px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn_cancel {
+  background-color: #bbbbbb;
+  color: white;
+}
+.btn_cancel:hover {
+  background-color: #a8a8a8;
+  color: white;
+}
+
+.btn_create {
+  background-color: var(--bg-primary-hover);
+  color: white;
+}
+.btn_create:hover {
+  background-color: var(--bg-primary);
+  color: white;
+}
+
+.modal_form input, .modal_form select {
+  padding: 10px;
+  outline: none;
+}
+
+.modal_form select {
+  cursor: pointer;
+}
